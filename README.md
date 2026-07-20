@@ -1,4 +1,4 @@
-# CS50: Introduction to Computer Science — Problem Sets
+# CS50x: Introduction to Computer Science — Problem Sets
 
 This repository contains my solutions to the problem sets from **[CS50: Introduction to Computer Science](https://cs50.harvard.edu/x/)**, Harvard University's introductory course to the intellectual enterprises of computer science and the art of programming, taught by David J. Malan.
 
