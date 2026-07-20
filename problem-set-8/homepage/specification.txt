@@ -1,0 +1,24 @@
+10 HTML tags used:
+1. nav
+2. a
+3. button
+4. ul
+5. li
+6. form
+7. input
+8. textarea
+9. h1
+10. p
+
+5 CSS properties used:
+1. background-color
+2. font-family
+3. margin
+4. padding
+5. box-shadow
+
+JavaScript usage:
+Used JavaScript to add interactivity by implementing a greeting alert on the home page button and a submission alert on the contact form.
+
+Bootstrap usage:
+Integrated Bootstrap 4.5.3 for responsive navigation, buttons, forms, and layout styling to enhance the website's appearance and responsiveness across devices.

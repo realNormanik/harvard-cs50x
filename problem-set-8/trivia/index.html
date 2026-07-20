@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Trivia!</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Support for multiple choice questions
+            const buttons = document.querySelectorAll(".multiple-choice button");
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    // Reset colors and feedback
+                    buttons.forEach(btn => btn.style.backgroundColor = "");
+                    const feedback = button.parentElement.querySelector(".feedback");
+                    feedback.textContent = "";
+
+                    // We color and show feedback depending on the answer
+                    if (button.classList.contains("correct")) {
+                        button.style.backgroundColor = "green";
+                        feedback.textContent = "Correct!";
+                    } else {
+                        button.style.backgroundColor = "red";
+                        feedback.textContent = "Incorrect";
+                    };
+                });
+            });
+
+            // Handling an open-ended question
+            const checkBtn = document.querySelector("#check-answer");
+            checkBtn.addEventListener("click", () => {
+                const input = document.querySelector("#free-response-input");
+                const feedback = input.parentElement.querySelector(".feedback");
+                const answer = input.value.trim().toLowerCase();
+
+                if (answer === "switzerland") {
+                    input.style.backgroundColor = "green";
+                    feedback.textContent = "Correct!";
+                } else {
+                    input.style.backgroundColor = "red";
+                    feedback.textContent = "Incorrect";
+                };
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Trivia!</h1>
+
+    <section class="multiple-choice">
+        <h2>Part 1: Multiple Choice</h2>
+        
+        <hr>
+        <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+        <button class="incorrect">6 people per 1 sheep</button>
+        <button class="incorrect">3 people per 1 sheep</button>
+        <button class="incorrect">1 person per 1 sheep</button>
+        <button class="incorrect">1 person per 3 sheep</button>
+        <button class="correct">1 person per 6 sheep</button>
+        <p class="feedback"></p>
+    </section>
+
+    <section class="free-response">
+        <h2>Part 2: Free Response</h2>
+        <hr>
+        <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+        <input type="text" id="free-response-input" />
+        <button id="check-answer">Check Answer</button>
+        <p class="feedback"></p>
+    </section>
+</body>
+</html>
