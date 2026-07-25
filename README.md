@@ -12,17 +12,17 @@ CS50 is Harvard University's introduction to the intellectual enterprises of com
 
 Each folder in this repository corresponds to one problem set exercise, and includes its own `README.md` describing the specific problem, my implementation, and what I learned from it in more detail.
 
-| Problem Set | Topic | Projects |
-|---|---|---|
-| Problem Set 1 | C Fundamentals | `world` (Hello, World), `me` (Hello, Name), `mario-less` / `mario-more` (loops & functions), `cash` (greedy algorithms), `credit` (Luhn's algorithm) |
-| Problem Set 2 | Arrays | `scrabble` (arrays & scoring), `readability` (text analysis), `caesar` (cryptography) |
-| Problem Set 3 | Algorithms | `substitution` (cryptography), `sort` (algorithm analysis), `plurality` / `runoff` / `tideman` (voting algorithms, structs, recursion) |
-| Problem Set 4 | Memory | `volume` (binary file I/O), `filter-less` / `filter-more` (2D arrays, image processing), `recover` (forensic data recovery) |
-| Problem Set 5 | Data Structures | `inheritance` (dynamic memory, recursion, trees), `speller` (custom hash table implementation) |
-| Problem Set 6 | Python | `sentimental-hello`, `sentimental-mario-less` / `sentimental-mario-more`, `sentimental-cash`, `sentimental-credit`, `sentimental-readability` (C-to-Python translations), `dna` (DNA profiling with CSV parsing) |
-| Problem Set 7 | SQL | `songs`, `movies` (relational queries, joins, subqueries), `fiftyville` (open-ended database investigation) |
-| Problem Set 8 | HTML, CSS, JavaScript | `trivia` (DOM manipulation, event listeners), `homepage` (multi-page site with Bootstrap) |
-| Problem Set 9 | Flask | `birthdays` (basic CRUD web app), `finance` (full-stack stock trading simulation with authentication) |
+| Problem Set   | Topic                 | Projects                                                                                                                                             |
+|---------------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problem Set 1 | C Fundamentals        | `world` (Hello, World), `me` (Hello, Name), `mario-less` / `mario-more` (loops & functions), `cash` (greedy algorithms), `credit` (Luhn's algorithm) |
+| Problem Set 2 | Arrays                | `scrabble` (arrays & scoring), `readability` (text analysis), `caesar` (cryptography)                                                                |
+| Problem Set 3 | Algorithms            | `substitution` (cryptography), `sort` (algorithm analysis), `plurality` / `runoff` / `tideman` (voting algorithms, structs, recursion)               |
+| Problem Set 4 | Memory                | `volume` (binary file I/O), `filter-less` / `filter-more` (2D arrays, image processing), `recover` (forensic data recovery)                          |
+| Problem Set 5 | Data Structures       | `inheritance` (dynamic memory, recursion, trees), `speller` (custom hash table implementation)                                                       |
+| Problem Set 6 | Python                | `sentimental-hello`, `sentimental-mario-less` / `sentimental-mario-more`, `sentimental-cash`, `sentimental-credit`, `sentimental-readability` (C-to-Python translations), `dna` (DNA profiling with CSV parsing) |
+| Problem Set 7 | SQL                   | `songs`, `movies` (relational queries, joins, subqueries), `fiftyville` (open-ended database investigation)                                          |
+| Problem Set 8 | HTML, CSS, JavaScript | `trivia` (DOM manipulation, event listeners), `homepage` (multi-page site with Bootstrap)                                                            |
+| Problem Set 9 | Flask                 | `birthdays` (basic CRUD web app), `finance` (full-stack stock trading simulation with authentication)                                                |
 
 ## 🎯 What I Learned
 
