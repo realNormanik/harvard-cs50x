@@ -1,0 +1,37 @@
+{
+	"name": "engima",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"prod": "opennextjs-cloudflare build",
+		"deploy": "opennextjs-cloudflare deploy",
+		"preview": "opennextjs-cloudflare preview",
+		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts",
+		"db": "wrangler d1 execute courses --file=./database/schema.sql"
+	},
+	"dependencies": {
+		"@apollo/client": "^4.2.12",
+		"@apollo/server": "^5.5.1",
+		"@as-integrations/cloudflare-workers": "^1.1.1",
+		"@graphql-tools/schema": "^10.1.0",
+		"@opennextjs/cloudflare": "^1.20.5",
+		"cssnano": "^8.0.10",
+		"graphql": "^17.0.2",
+		"jose": "^6.2.10",
+		"next": "16.3.4",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.3.6",
+		"@tailwindcss/postcss": "^4.3.3",
+		"eslint": "^10.9.1",
+		"eslint-config-next": "16.2.10",
+		"tailwindcss": "^4.3.3",
+		"wrangler": "^4.127.1"
+	},
+	"packageManager": "pnpm@11.25.0"
+}

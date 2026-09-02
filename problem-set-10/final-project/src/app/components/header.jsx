@@ -1,0 +1,21 @@
+import Link from "next/link";
+
+import ThemeButton from "./buttons/theme-button";
+
+import Logo from "styles/icons/logo";
+
+export default function Header() {
+  return (
+    <header className="flex md:px-qp px-2 bg-third justify-between">
+      <Link href="/">
+        <div className="u15">
+          <Logo />
+          <h1>Enigma</h1>
+        </div>
+      </Link>
+      <div className="u15 pr-4">
+        <ThemeButton />
+      </div>
+    </header>
+  );
+};
