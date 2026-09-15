@@ -36,7 +36,7 @@
 	    "SECRET_KEY": "0x4AAAAAAA8Cypo9aDiDt4r2F23lLNjpoZs",
 	    "NEXT_PUBLIC_SITE_KEY": "0x4AAAAAAA8CytbRsD_4tmim",
 	    "NEXT_PUBLIC_JWT_SECRET": "0joBg09Ui2ykIacUW1iB8fi8kQRS3NQR",
-	    "NODE_VERSION": "24.18.0",
-        "PNPM_VERSION": "11.25.0"
+	    "NODE_VERSION": "24.21.0",
+        "PNPM_VERSION": "12.4.2"
 	}
 }

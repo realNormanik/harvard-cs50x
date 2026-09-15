@@ -153,13 +153,13 @@ The project structure is based on Next.js application with Cloudflare integratio
 To run the application, make sure you have the following dependencies installed:
   ```json
   {
-    "next": "16.3.4",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "@opennextjs/cloudflare": "^1.20.5",
+    "next": "16.3.5",
+    "react": "^19.3.0",
+		"react-dom": "^19.3.0",
+    "@opennextjs/cloudflare": "^1.20.6",
     "@as-integrations/cloudflare-workers": "^1.1.1",
-    "@apollo/client": "^4.2.12",
-    "@apollo/server": "^5.5.1",
+    "@apollo/client": "^4.3.0",
+		"@apollo/server": "^5.5.1",
     "graphql": "^17.0.2"
   }
   ```
@@ -239,7 +239,7 @@ You can view a working version of the project here:
 👉 https://enigma.realnormanik.workers.dev/
 
 Video walkthrough of the specification:
-🎥 https://youtu.be/jDPhSrNDSfg
+🎥 https://youtu.be/NfW53f08Rc0
 
 ## 📜 Certification
 
