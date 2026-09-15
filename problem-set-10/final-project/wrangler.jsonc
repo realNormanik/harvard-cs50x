@@ -28,13 +28,6 @@
 			"id": "0a2b37e3074f4eadad1528ebe96a51a3"
 		}
 	],
-	"d1_databases": [
-        {
-            "binding": "D1",
-            "database_name": "courses",
-            "database_id": "6d269ac6-c52c-497b-ae1b-fed521130583"
-        }
-    ],
     "vars": {
 	    "JWT_SECRET": "0joBg09Ui2ykIacUW1iB8fi8kQRS3NQR",
 	    "SALT_SECRET": "U3h41ZjOJH",
